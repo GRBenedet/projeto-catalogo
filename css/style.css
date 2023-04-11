@@ -1,0 +1,297 @@
+body {
+    width: 100vw;
+    background-color: rgb(246, 238, 238);
+    overflow-x: hidden;
+}
+
+header {
+    width: 1800px;
+    height: 500px;
+    background-color: tomato;
+    box-shadow: 1px 0px 25px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+}
+
+.conteudo {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo {
+    margin: auto;
+    font-size: 55px;
+    color: #F6EEEE;
+}
+
+.menu {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+  div li {
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+}
+
+div li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+div li a:hover {
+    color: black;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+div ul button {
+    border: 1px solid black;
+    background: transparent;
+    padding: 8px 40px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+div ul button:hover {
+    font-size: 22px;
+    background-color: black;
+    border-color: aliceblue;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.banner1 {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    height:  450px;
+    border-radius: 8px;
+    background-color: aqua;
+    box-shadow: 1px 0px 25px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.imgbanner1 {
+    width: 40%;
+    position: absolute;
+    right: 23.2%;
+    transform: translatey(-130px);
+    transition: 1s;
+}
+.titulobanner {
+    color: brown;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    left: 5%;
+    font-size: 45px;
+    transform:  translateX(-50px);
+    transition: 1s;
+}
+
+.descricaobanner {
+    position: absolute;
+    left: 32%;
+    text-align: right;
+    width: 15%;
+    color: darkred;
+    transform:  translatey(-10px);
+    transition: 1s;
+    font-weight: bold;
+}
+
+section {
+    width: 100vw;
+    padding: 400px;
+}
+
+.titulocatalogo h3 {
+    font-size: 85px;
+    margin-top: -20px;
+    color: brown;
+    margin-left: 70px;
+}
+.titulocatalogo p {
+    font-size: 25px;
+    color: darkblue;
+    margin-left: 20px;
+}
+
+.favoritos {
+    display: flex;
+    flex-direction: end;
+    justify-content: end;
+    margin-right: 20px;
+    
+}
+.favoritos input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: transparent;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 15px;
+    background-color: transparent;
+    color: black;
+    font-size: 1.1em;
+}
+
+.favoritos button {
+    background: transparent;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    font-weight: bold;
+    color: black;
+    font-size: 1.1em;
+}
+
+.favoritos input:focus {
+    border-color: black;
+    transition: 0.5s;
+}
+
+.favoritos button:hover {
+    background-color: black;
+    color: aliceblue;
+    border: aliceblue;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.cartaomodelo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    
+    
+}
+
+.cartaoitem {
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 50px;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 1px 0px 25px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.carroimg {
+ width: 200px;
+}
+
+.cartaomodelo .cartaoitem h3 {
+    color: tomato;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.cartaomodelo .cartaoitem p {
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cartaomodelo .cartaoitem button {
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.cartaoitem button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.sobrenos {
+   margin-top: -700px;
+   background-color: #FF6347;
+   width: 1500px;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   margin-bottom: 100px;
+   border-radius: 8px;
+   box-shadow: 1px 0px 25px 0px rgba(0, 0, 0, 0.5);
+}
+
+.sobrenos h5 {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.sobrenos p {
+    font-size: 1.1em;
+    
+}
+
+.contato {
+    box-shadow: 1px 0px 25px 0px rgba(0, 0, 0, 0.5);
+    background-color: #A0B4B7;
+    width: 100;
+    padding-bottom: 0;
+    margin: auto;
+
+}
+
+.contato h1 {
+    font-size: 2em;
+    margin-top: -350px;
+    margin-left: -250px;
+    margin-right: auto;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.contato a {
+    margin: auto;
+    margin-right: 110px;
+    margin-bottom: 150px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.contato a:hover {
+    filter: invert(100);
+    transition: 0.5s;
+}
